@@ -15,6 +15,12 @@ app.get('/api', function (req, res) {
         name:"최승연"
     })
 })
+app.get('/test', function (req, res) {
+    res.send({
+        test:"3200",
+        name:"test"
+    })
+})
 app.post('/api/login', function (req, res) {
     console.log("들어오나")
     console.log(req.body)
