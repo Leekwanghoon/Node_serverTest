@@ -15,7 +15,7 @@ app.get('/api', function (req, res) {
         name:"최승연"
     })
 })
-app.get('/test', function (req, res) {
+app.get('/api/test', function (req, res) {
     res.send({
         test:"3200",
         name:"test"
@@ -33,3 +33,5 @@ app.post('/api/login', function (req, res) {
 app.listen(port, () => {
     console.log(`server is listening at localhost:${port}`);
 });
+
+// https://nodeserverbackground.herokuapp.com/test
