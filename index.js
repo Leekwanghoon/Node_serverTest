@@ -12,7 +12,8 @@ app.get('/api', function (req, res) {
     console.log("여기오나")
     res.send({
         status:"200",
-        name:"최승연"
+        name:"최승연",
+        message:"승연아 사랑해"
     })
 })
 app.get('/api/test', function (req, res) {
