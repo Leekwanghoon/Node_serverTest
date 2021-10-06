@@ -12,8 +12,11 @@ app.get('/api', function (req, res) {
     console.log("여기오나")
     res.send({
         status:"200",
-        name:"최승연",
-        message:"승연아 사랑해"
+        message:"뿌우~~ I Love You",
+        age:"30",
+        description:"대리",
+        location:"이천 메가커피",
+        time:"11am"
     })
 })
 app.get('/api/test', function (req, res) {
